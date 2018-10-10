@@ -8,9 +8,9 @@ Your markup, your layout | Susy's math.
 
 ## Install
 
-First install the latest release of `meta:susy`, then install `fourseven:scss`.
+First install the latest release of `pathable:susy`, then install `fourseven:scss`.
 
-```meteor add meta:susy@2.3.3```
+```meteor add pathable:susy@3.0.0```
 
 ```meteor add fourseven:scss```
 
@@ -19,7 +19,7 @@ First install the latest release of `meta:susy`, then install `fourseven:scss`.
 Import Susy into a `.scss` file:
 
 ```
-@import "/{meta:susy}/susy";
+@import "/{pathable:susy}/susy";
 ```
 
 Resources
