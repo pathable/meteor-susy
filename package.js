@@ -63,9 +63,3 @@ Package.onUse(function(api) {
   ];
   api.addFiles(assets, 'client', { isImport: true });
 });
-
-Package.onTest(function(api) {
-  api.use('tinytest');
-  api.use('pathable:susy');
-  api.addFiles('pathable:susy-tests.js');
-});
